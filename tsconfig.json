@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "outFile": "out/app-ts.js"
+  },
+  "files": [
+    "src-ts/Driver.ts"
+  ]
+}

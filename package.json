@@ -1,0 +1,18 @@
+{
+  "name": "dceShowdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:ts": "tsc",
+    "build:hx": "haxe build.hxml",
+    "build": "npm run build:ts && npm run build:hx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "haxe": "^4.0.0",
+    "typescript": "^2.0.3"
+  }
+}

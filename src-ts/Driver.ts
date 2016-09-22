@@ -1,9 +1,11 @@
-import vehicles.Car;
+import {Car} from './vehicles/Car';
 
 class Driver {
-  static function main() {
+  static main() {
     var car = new Car('ABC', 3);
     car.honk();
     car.shiftUp();
   }
 }
+
+Driver.main();

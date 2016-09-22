@@ -22,7 +22,7 @@ class Car {
   }
 
   public function shiftDown() {
-    if (this.currentGear < this.gears) {
+    if (this.currentGear > 1) {
       this.currentGear -= 1;
     }
   }
